@@ -1,0 +1,52 @@
+{
+    "rolls": [
+    {
+      "id": 41,
+      "name": "Veg Roll",
+      "image": "src/assets/DataRoll41.jpg",
+      "price": "₹50"
+    },
+    {
+      "id": 42,
+      "name": "Paneer Roll",
+      "image": "src/assets/DataRoll42.jpg",
+      "price": "₹70"
+    },
+    {
+        "id": 43,
+        "name": "Maxican Cheese Roll",
+        "image": "src/assets/DataRoll43.jpg",
+        "price": "₹80"
+    },
+    {
+        "id": 44,
+        "name": "Cheese Labalab Roll",
+        "image": "src/assets/DataRoll44.jpg",
+        "price": "₹100"
+    },
+    {
+        "id": 45,
+        "name": "Tandoori Roll",
+        "image": "src/assets/DataRoll45.jpg",
+        "price": "₹90"
+    },
+    {
+        "id": 46,
+        "name": "Chilli Cheese Roll",
+        "image": "src/assets/DataRoll46.jpg",
+        "price": "₹110"
+    },
+    {
+        "id": 47,
+        "name": "American Garden Roll",
+        "image": "src/assets/DataRoll47.jpg",
+        "price": "₹80"
+    },
+    {
+        "id": 48,
+        "name": "Paneer Laccha Cheese Roll",
+        "image": "src/assets/DataRoll48.jpg",
+        "price": "₹120"
+    }
+  ]
+}

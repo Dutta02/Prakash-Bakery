@@ -1,0 +1,138 @@
+.new-contact-container {
+    background: url("src/assets/Contact From .jpg");
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.new-contact-form {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 550px;
+    width: 100%;
+}
+
+
+.new-contact-form h2 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.new-contact-form label {
+    display: block;
+    font-weight: bold;
+    margin: 12px 0 6px;
+    font-size: 16px;
+    color: #222;
+}
+
+
+.new-contact-form label span {
+    color: red;
+    font-size: 18px;
+}
+
+
+.new-contact-form input,
+.new-contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #f9f9f9;
+    color: #333;
+}
+
+
+.new-name-fields {
+    display: flex;
+    gap: 12px;
+}
+
+.new-name-fields input {
+    flex: 1;
+}
+
+
+.new-client-options {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.new-client-options label {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.new-contact-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+
+.new-contact-form button {
+    width: 100%;
+    background: #8b5e34;
+    color: white;
+    padding: 14px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background 0.3s ease;
+}
+
+.new-contact-form button:hover {
+    background: #6a4525;
+}
+.star-rating {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .star-rating input {
+    display: none; 
+  }
+  
+  .star-icon {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .star-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .thumbs-up {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    animation: bounce 0.5s ease-in-out infinite alternate;
+  }
+  
+
+  @keyframes bounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  

@@ -1,0 +1,176 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+.store-locator {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+
+.store-list {
+  width: 30%;
+  height: 100vh;
+  padding: 20px;
+  overflow-y: auto;
+  background: #fff;
+  border-right: 2px solid #ddd;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.store-item {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #222;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.store-item:hover {
+  background: #e9ecef;
+  transform: scale(1.02);
+}
+
+
+.map-container {
+  flex-grow: 1;
+  height: 100vh;
+  position: relative;
+}
+
+.map-container iframe,
+.map-container .leaflet-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+
+.leaflet-top,
+.leaflet-control {
+  position: absolute !important;
+  top: 10px !important;
+  left: 10px !important;
+  z-index: 1000;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.leaflet-control-zoom-in:hover,
+.leaflet-control-zoom-out:hover {
+  background: #f1f1f1;
+}
+.Search-Bar{
+    height: 20px;
+    width: 200px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .store-locator {
+    flex-direction: column;
+    height: auto;
+  }
+  .store-list {
+    width: 100%;
+    height: 40vh;
+    border-right: none;
+  }
+  .map-container {
+    width: 100%;
+    height: 60vh;
+  }
+}
+
+.location-button {
+  display: flex;
+  align-items: center;
+  background: #f5eedc;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.location-button:hover {
+  background: #e0d4b8;
+}
+
+.location-icon {
+  margin-right: 8px;
+  color: #333;
+  font-size: 18px;
+}
+
+.store-item button {
+  display: flex;
+  align-items: center;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.store-item button:hover {
+  background: #746f6a;
+}
+
+
+.store-item button  {
+   padding: 8px;
+  font-size: 16px;
+  margin: 20px;
+}
+.lol{
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.direction-icon{
+  padding: 5px;
+  background-color: #000000;
+  font-size: 24px;
+}
+.get-direction{
+   background-color: #222;
+}
+.directionname{
+   padding: 5px;
+}
+.store-item h3 {
+  padding: 5px;
+}
+.store-item p{
+  padding: 5px;
+}

@@ -1,0 +1,76 @@
+{
+    "cakes": [
+        {
+          "id": 21,
+          "name": "Black Forest",
+          "image": "src/assets/DataCake21.jpg",
+          "price": "₹400"
+        },
+        {
+          "id": 22,
+          "name": "Vanilla Cake",
+          "image": "src/assets/DataCake22.jpg",
+          "price": "₹400"
+        },
+        {
+            "id": 23,
+            "name": "Choco Turuffle Cake",
+            "image": "src/assets/DataCake23.jpg",
+            "price": "₹450"
+        },
+        {
+            "id": 24,
+            "name": "Choco Valvet Cake",
+            "image": "src/assets/DataCake24.jpg",
+            "price": "₹450"
+        },
+        {
+            "id": 25,
+            "name": "Chocolate Oreo Cake",
+            "image": "src/assets/DataCake25.jpg",
+            "price": "₹450"
+        },
+        {
+            "id": 26,
+            "name": "Choco OrangeCake",
+            "image": "src/assets/DataCake26.jpg",
+            "price": "₹450"
+        },
+        {
+            "id": 27,
+            "name": "Chocolate Chips Cake",
+            "image": "src/assets/DataCake27.jpg",
+            "price": "₹450"
+        }, 
+        {
+            "id": 28,
+            "name": "Strawberry Cake",
+            "image": "src/assets/DataCake28.jpg",
+            "price": "₹450"
+        }, 
+        {
+            "id": 29,
+            "name": "Pineapple Cake",
+            "image": "src/assets/DataCake29.jpg",
+            "price": "₹450"
+        }, 
+        {
+            "id": 20,
+            "name": "Red Velvet Cake",
+            "image": "src/assets/DataCake20.jpg",
+            "price": "₹450"
+        },
+        {
+            "id": 221,
+            "name": "ButterScotch Cake",
+            "image": "src/assets/DataCake221.jpg",
+            "price": "₹450"
+        },
+        {
+            "id": 222,
+            "name": "Fruits Cake",
+            "image": "src/assets/DataCake222.jpg",
+            "price": "₹450"
+        }
+      ]
+    }

@@ -1,0 +1,53 @@
+{
+    "pizzas": 
+    [
+        {
+          "id": 31,
+          "name": "Margherita Pizza",
+          "image": "/src/assets/DataPizza31.jpg",
+          "price": "₹150"
+        },
+        {
+          "id": 32,
+          "name": "Paneer Pizza",
+          "image": "/src/assets/DataPizza32.jpg",
+          "price": "₹180"
+        },
+        {
+            "id": 33,
+            "name": "Italian Pizza",
+            "image": "/src/assets/DataPizza33.jpg",
+            "price": "₹150"
+        },
+        {
+            "id": 34,
+            "name": "Tandoori Pizza",
+            "image": "/src/assets/DataPizza34.jpg",
+            "price": "₹130"
+        },
+        {
+            "id": 35,
+            "name": "Maxican Cheese Pizza",
+            "image": "/src/assets/DataPizza35.jpg",
+            "price": "₹140"
+        },
+        {
+            "id": 36,
+            "name": "Gralic Bread",
+            "image": "src/assets/DataPizza36.jpg",
+            "price": "₹250"
+        },
+        {
+            "id": 331,
+            "name": "Italian Pizza",
+            "image": "src/assets/DataPizza331.jpg",
+            "price": "₹250"
+        },
+        {
+            "id": 332,
+            "name": "ThinCrust Pizza",
+            "image": "src/assets/DataPizza332.jpg",
+            "price": "₹250"
+        }
+    ]
+}

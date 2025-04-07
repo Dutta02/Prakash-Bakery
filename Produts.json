@@ -1,0 +1,254 @@
+{
+    "categories": {
+      "puffs": [
+        {
+          "id": 11,
+          "name": "Regular Puff",
+          "image": "src/assets/DataPuff11.jpg",
+          "price": "₹20"
+        },
+        {
+          "id": 12,
+          "name": "Cheese Puff",
+          "image": "src/assets/DataPuff12.jpg",
+          "price": "₹40"
+        },
+        {
+            "id": 13,
+            "name": "Sezwan Puff",
+            "image": "src/assets/DataPuff13.jpg",
+            "price": "₹35"
+        },
+        {
+            "id": 14,
+            "name": "Paneer Puff",
+            "image": "src/assets/DataPuff14.jpg",
+            "price": "₹50"
+        },
+        {
+            "id": 15,
+            "name": "Paneer Tandoori Puff",
+            "image": "src/assets/DataPuff15.jpg",
+            "price": "₹55"
+        },
+        {
+            "id": 16,
+            "name": "Maxican Paneer Puff",
+            "image": "src/assets/DataPuff16.jpg",
+            "price": "₹60"
+        },
+        {
+            "id": 17,
+            "name": "Pizza puff",
+            "image": "src/assets/DataPuff17.jpg",
+            "price": "₹60"
+        },
+        {
+            "id": 18,
+            "name": "Sev Mayonnaise Puff",
+            "image": "src/assets/DataPuff18.jpg",
+            "price": "₹50"
+          
+        },
+        {
+            "id": 19,
+            "name": "Sezwan Cheese Puff",
+            "image": "src/assets/DataPuff19.jpg",
+            "price": "₹60"
+        },
+        {
+            "id": 10,
+            "name": " Cheese Roll Puff",
+            "image": "src/assets/DataPuff10.jpg",
+            "price": "₹80"
+        },
+        {
+            "id": 111,
+            "name": " Curry Puff",
+            "image": "src/assets/DataPuff111.jpg",
+            "price": "₹80"
+        },
+        {
+            "id": 112,
+            "name": " Chinese Puff",
+            "image": "src/assets/DataPuff112.jpg",
+            "price": "₹80"
+        }
+      ],
+      "cakes": [
+        {
+          "id": 21,
+          "name": "Black Forest",
+          "image": "src/assets/DataPuff112.jpg",
+          "price": "₹400"
+        },
+        {
+          "id": 22,
+          "name": "Vanilla Cake",
+          "image": "src/assets/DataCake22.jpg",
+          "price": "₹400"
+        },
+        {
+            "id": 23,
+            "name": "Choco Turuffle Cake",
+            "image": "src/assets/DataCake23.jpg",
+            "price": "₹450"
+        },
+        {
+            "id": 24,
+            "name": "Choco Valvet Cake",
+            "image": "src/assets/DataCake24.jpg",
+            "price": "₹450"
+        },
+        {
+            "id": 25,
+            "name": "Chocolate Oreo Cake",
+            "image": "src/assets/DataCake25.jpg",
+            "price": "₹450"
+        },
+        {
+            "id": 26,
+            "name": "Choco OrangeCake",
+            "image": "src/assets/DataCake26.jpg",
+            "price": "₹450"
+        },
+        {
+            "id": 27,
+            "name": "Chocolate Chips Cake",
+            "image": "src/assets/DataCake27.jpg",
+            "price": "₹450"
+        }, 
+        {
+            "id": 28,
+            "name": "Strawberry Cake",
+            "image": "src/assets/DataCake28.jpg",
+            "price": "₹450"
+        }, 
+        {
+            "id": 29,
+            "name": "Pineapple Cake",
+            "image": "src/assets/DataCake29.jpg",
+            "price": "₹450"
+        }, 
+        {
+            "id": 20,
+            "name": "Red Velvet Cake",
+            "image": "src/assets/DataCake20.jpg",
+            "price": "₹450"
+        },
+        {
+            "id": 221,
+            "name": "ButterScotch Cake",
+            "image": "src/assets/DataCake221.jpg",
+            "price": "₹450"
+        },
+        {
+            "id": 222,
+            "name": "Fruits Cake",
+            "image": "src/assets/DataCake222.jpg",
+            "price": "₹450"
+        }
+      ],
+      "pizza": [
+        {
+          "id": 31,
+          "name": "Margherita Pizza",
+          "image": "/src/assets/DataPizza31.jpg",
+          "price": "₹150"
+        },
+        {
+          "id": 32,
+          "name": "Paneer Pizza",
+          "image": "/src/assets/DataPizza32.jpg",
+          "price": "₹180"
+        },
+        {
+            "id": 33,
+            "name": "Italian Pizza",
+            "image": "/src/assets/DataPizza33.jpg",
+            "price": "₹150"
+        },
+        {
+            "id": 34,
+            "name": "Tandoori Pizza",
+            "image": "/src/assets/DataPizza34.jpg",
+            "price": "₹130"
+        },
+        {
+            "id": 35,
+            "name": "Maxican Cheese Pizza",
+            "image": "/src/assets/DataPizza35.jpg",
+            "price": "₹140"
+        },
+        {
+            "id": 36,
+            "name": "Gralic Bread",
+            "image": "src/assets/DataPizza36.jpg",
+            "price": "₹250"
+        },
+        {
+            "id": 331,
+            "name": "Italian Pizza",
+            "image": "src/assets/DataPizza331.jpg",
+            "price": "₹250"
+        },
+        {
+            "id": 332,
+            "name": "ThinCrust Pizza",
+            "image": "src/assets/DataPizza332.jpg",
+            "price": "₹250"
+        }
+      ],
+      "rolls": [
+        {
+          "id": 41,
+          "name": "Veg Roll",
+          "image": "src/assets/DataRoll41.jpg",
+          "price": "₹50"
+        },
+        {
+          "id": 42,
+          "name": "Paneer Roll",
+          "image": "src/assets/DataRoll42.jpg",
+          "price": "₹70"
+        },
+        {
+            "id": 43,
+            "name": "Maxican Cheese Roll",
+            "image": "src/assets/DataRoll43.jpg",
+            "price": "₹80"
+        },
+        {
+            "id": 44,
+            "name": "Cheese Labalab Roll",
+            "image": "src/assets/DataRoll44.jpg",
+            "price": "₹100"
+        },
+        {
+            "id": 45,
+            "name": "Tandoori Roll",
+            "image": "src/assets/DataRoll45.jpg",
+            "price": "₹90"
+        },
+        {
+            "id": 46,
+            "name": "Chilli Cheese Roll",
+            "image": "src/assets/DataRoll46.jpg",
+            "price": "₹110"
+        },
+        {
+            "id": 47,
+            "name": "American Garden Roll",
+            "image": "src/assets/DataRoll47.jpg",
+            "price": "₹80"
+        },
+        {
+            "id": 48,
+            "name": "Paneer Laccha Cheese Roll",
+            "image": "src/assets/DataRoll48.jpg",
+            "price": "₹120"
+        }
+      ]
+    }
+}
+  
